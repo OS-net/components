@@ -1,0 +1,28 @@
+name: Deposit Flows
+author: LendersIQ
+language: PHP
+language version: 8.0
+database:
+- osdb
+libraries:
+- charts
+components:
+  map:
+    Retail DDA:
+      - gl#
+      - gl#
+    Personal MMDA:
+      - example gl#
+      - 2159999
+    Commercial DDA:
+      - 2259999
+    Personal Savings:
+      - 2309999
+      - 2359999
+    Commercial Savings:
+      - 2509999
+      - 2559999
+    Personal CDS:
+      - 2659999
+    Commercial CDS:
+      - 2759999
