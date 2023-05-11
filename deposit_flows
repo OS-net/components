@@ -7,6 +7,8 @@ database:
 libraries:
 - charts
 components:
+  lake:
+    reference: "app, latest"
   map:
     Retail DDA:
       - gl#
